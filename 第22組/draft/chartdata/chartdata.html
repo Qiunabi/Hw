@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <!-- CSS  -->
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../assets/css/data_chart1.css" rel="stylesheet" />
+  <link rel="icon" href="/draft/assets/img /cbeat-15wcn-001.ico" type="image/x-icon" />
+</head>
+
+<body class="">
+  <!-- End Navbar -->
+  <div class="main-panel" id="main-panel">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-transparent  bg-primary  navbar-absolute">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#pablo">Obesity levels have increased from 15% to 29% since 1993.U：pct</a>
+      </div>
+    </nav>
+  </div>
+  <div class="panel-header panel-header-lg">
+    <canvas id="bigDashboardChart"></canvas>
+  </div>
+
+  <div class="content">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card card-chart">
+          <div class="card-header">
+            <h5 class="card-category">Obese</h5>
+            <h4 class="card-title">Adult Obese in England has risen from 15% in 1993 to 29% in 2017.</h4>
+          </div>
+          <div class="card-body">
+            <div class="chart-area">
+              <canvas id="lineChartExample"></canvas>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card card-chart">
+          <div class="card-header">
+            <h5 class="card-category">Overweight or obese</h5>
+            <h4 class="card-title">Adult Overweight or obese in England has risen from 15% in 1993 to 29% in 2017.</h4>
+
+          </div>
+          <div class="card-body">
+            <div class="chart-area">
+              <canvas id="lineChartExampleWithNumbersAndGrid"></canvas>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card card-chart">
+          <div class="card-header">
+            <h5 class="card-category">obesity</h5>
+            <h4 class="card-title">In Northern Ireland, obesity rates are estimated to be highest among ages 55-64</h4>
+          </div>
+          <div class="card-body">
+            <div class="chart-area">
+              <canvas id="barChartSimpleGradientsNumbers"></canvas>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h5 class="card-category">comparisons</h5>
+            <h4 class="card-title"> Woman obesity in Scotland</h4>
+          </div>
+          <div class="card-body">
+            <div class="table-responsive">
+              <table class="table">
+                <thead class=" text-primary">
+                  <th>
+                    age
+                  </th>
+                  <th>
+                    Normal Weight U:PCT
+                  </th>
+                  <th>
+                    Overweight U:PCT
+                  </th>
+                  <th class="text-right">
+                    Obese U:PCT
+                  </th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      16~24
+                    </td>
+                    <td>
+                      55
+                    </td>
+                    <td>
+                      35
+                    </td>
+                    <td class="text-right">
+                      10
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      25～34
+                    </td>
+                    <td>
+                      40
+                    </td>
+                    <td>
+                      37
+                    </td>
+                    <td class="text-right">
+                      23
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      35～44
+                    </td>
+                    <td>
+                      31
+                    </td>
+                    <td>
+                      28
+                    </td>
+                    <td class="text-right">
+                      41
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      45～54
+                    </td>
+                    <td>
+                      25
+                    </td>
+                    <td>
+                      35
+                    </td>
+                    <td class="text-right">
+                      40
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      55～64
+                    </td>
+                    <td>
+                      28
+                    </td>
+                    <td>
+                      36
+                    </td>
+                    <td class="text-right">
+                      36
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h5 class="card-category">comparisons</h5>
+            <h4 class="card-title"> man obesity in Scotland</h4>
+          </div>
+          <div class="card-body">
+            <div class="table-responsive">
+              <table class="table">
+                <thead class=" text-primary">
+                  <th>
+                    age
+                  </th>
+                  <th>
+                    Normal Weight U:PCT
+                  </th>
+                  <th>
+                    Overweight U:PCT
+                  </th>
+                  <th class="text-right">
+                    Obese U:PCT
+                  </th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      16~24
+                    </td>
+                    <td>
+                      55
+                    </td>
+                    <td>
+                      37
+                    </td>
+                    <td class="text-right">
+                      8
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      25～34
+                    </td>
+                    <td>
+                      21
+                    </td>
+                    <td>
+                      49
+                    </td>
+                    <td class="text-right">
+                      30
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      35～44
+                    </td>
+                    <td>
+                      18
+                    </td>
+                    <td>
+                      61
+                    </td>
+                    <td class="text-right">
+                      21
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      45～54
+                    </td>
+                    <td>
+                      17
+                    </td>
+                    <td>
+                      60
+                    </td>
+                    <td class="text-right">
+                      23
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      55～64
+                    </td>
+                    <td>
+                      20
+                    </td>
+                    <td>
+                      61
+                    </td>
+                    <td class="text-right">
+                      19
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  </div>
+  </div>
+  <!--    JS   -->
+  <script src="../assets/js/jquery.min.js"></script>
+  <script src="../assets/js/popper.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <!-- Chart JS -->
+  <script src="../assets/js/plugins/chartjs.min.js"></script>
+  <!--  Plugin    -->
+  <script src="../assets/js/plugins/bootstrap-notify.js"></script>
+  <script src="../assets/js/data_chart1.js" type="text/javascript"></script>
+  <script src="../assets/data_chart/data_chart.js"></script>
+  <script>
+    $(document).ready(function () {
+
+      data_chart.initDashboardPageCharts();
+
+    });
+  </script>
+</body>
+
+</html>
